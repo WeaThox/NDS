@@ -1,10 +1,11 @@
 .bordereau_gauche{
   height: 100%;
-  width: 15%;
+  width: 20%;
   background: black;
   opacity: 0.80;
   position: fixed;
-  right: 85%;
+  right: 80%;
+  text-align: justify;
 }
 
 .bordereau_bas{
@@ -18,4 +19,127 @@
 
 body{
   margin: 0;
+  font-family: Calibri, "sans-serif";
+  font-weight: 430;
+  color: #fff;
+}
+
+iframe{
+  margin-top: 8%;
+  width: 100%;
+  height: 150%;
+  min-height: 230px;
+}
+
+.devblog{
+  margin-top: 10%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.devblog p{
+  font-size: 104%;
+}
+
+h2{
+  text-align: center;
+}
+
+.button{
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 2% auto;
+}
+
+button{
+  background-color: #FCBF00;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  font-size: 2.5em;
+  font-weight: 600;
+  cursor: pointer;
+  height: 8vh;
+  margin-right: 50%;
+  margin-left: 50%;
+}
+
+button:hover{
+  transform: scale(1.1);
+  background-position: -60px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.contact-item {
+  height: 60px;
+  width: 60px;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reseaux{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.discord{
+  margin-right: 80%;
+}
+
+.contact-item img :hover{
+  transform: scale(1.1);
+  background-position: -60px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.contact-item img{
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+
+
+@media (orientation: landscape) {
+  .logo{
+    justify-content: center;
+    flex-direction: row;
+    height: 80%;
+  }
+
+  #logo{
+    margin-left: 75%;
+  }
+
+  .logo img{
+    width: 80%;
+    min-width: 250px;
+  }
+}
+
+@media (orientation: portrait) {
+  .logo{
+    justify-content: center;
+    flex-direction: row;
+    height: 80%;
+  }
+
+  #logo{
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .logo img{
+    width: 80%;
+    min-width: 100px;
+  }
 }
