@@ -9,11 +9,12 @@
 }
 
 .bordereau_bas{
-  height: 15%;
-  width: 100%;
+  height: 100%;
+  width: 20%;
   background: black;
   opacity: 0.80;
   position: fixed;
+  right: 80%;
   top: 85%;
 }
 
@@ -46,8 +47,7 @@ h2{
 }
 
 .button{
-  margin-top: 15%;
-  margin-bottom: 5%;
+  margin-top: 25%;
 }
 
 a {
@@ -65,7 +65,7 @@ button{
   font-weight: 600;
   cursor: pointer;
   height: 8vh;
-  margin-right: 50%;
+  margin-right: 25%;
   margin-left: 50%;
 }
 
@@ -76,11 +76,10 @@ button:hover{
 }
 
 .contact-item {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   margin: 2rem;
   padding: 1rem;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,9 +92,6 @@ button:hover{
   flex-direction: row;
 }
 
-.discord{
-  margin-right: 80%;
-}
 
 .contact-item img :hover{
   transform: scale(1.1);
